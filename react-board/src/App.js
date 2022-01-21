@@ -76,7 +76,7 @@ function App() {
               <Form.Label>Name</Form.Label>
               <Form.Control type="text" placeholder="Enter email" required />
               <Form.Control.Feedback type="invalid">
-                Please provide a valid city.
+                Name is required
               </Form.Control.Feedback>
             </Form.Group>
           </Form>

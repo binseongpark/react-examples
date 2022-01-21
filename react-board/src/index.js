@@ -6,9 +6,38 @@ import reportWebVitals from './reportWebVitals';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import { Provider } from 'react-redux'
+
+/**
+ * store setup
+ */
+import { createStore, applyMiddleware, compose } from "redux";
+import createSagaMiddleware from "redux-saga";
+
+import rootReducer from "./reducers";
+import rootSaga from "./sagas";
+
+const sagaMiddleware = createSagaMiddleware();
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+
+const store = createStore(
+  rootReducer,
+  composeEnhancers(applyMiddleware(sagaMiddleware))
+);
+sagaMiddleware.run(rootSaga);
+
+if (module.hot) {
+  module.hot.accept("./reducers", () => {
+    const nextRootReducer = require("./reducers").default;
+    store.replaceReducer(nextRootReducer);
+  });
+}
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
