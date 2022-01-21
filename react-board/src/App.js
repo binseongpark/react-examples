@@ -125,7 +125,7 @@ function App() {
           <Modal.Body>
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Name</Form.Label>
-              <Form.Control type="text" placeholder="Enter email" required />
+              <Form.Control type="text" placeholder="Enter name" required />
               <Form.Control.Feedback type="invalid">
                 Name is required
               </Form.Control.Feedback>
