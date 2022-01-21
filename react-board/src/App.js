@@ -7,9 +7,21 @@ import { Button, Table, Modal, Form } from 'react-bootstrap'
 
 function App() {
   const [show, setShow] = useState(false)
+  const [validated, setValidated] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  const handleSubmit = (event) => {
+    const form = event.currentTarget;
+    if (form.checkValidity() === false) {
+      event.preventDefault();
+      event.stopPropagation();
+    }
+
+    setValidated(true);
+  };
+
 
   return (
     <div className="App">
@@ -59,7 +71,7 @@ function App() {
           <Modal.Title>글쓰기</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Form noValidate validated={true}>
+          <Form noValidate validated={validated}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Name</Form.Label>
               <Form.Control type="text" placeholder="Enter email" required />
@@ -73,7 +85,7 @@ function App() {
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
-          <Button variant="primary" onClick={handleClose}>
+          <Button variant="primary" onClick={handleSubmit}>
             Save Changes
           </Button>
         </Modal.Footer>
