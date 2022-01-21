@@ -1,10 +1,16 @@
+import React, { useState } from 'react'
 import logo from './logo.svg';
 import './App.css';
 import styled, { css } from "styled-components";
-import { Button, Table } from 'react-bootstrap'
+import { Button, Table, Modal, Form } from 'react-bootstrap'
 
 
 function App() {
+  const [show, setShow] = useState(false)
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
     <div className="App">
       <header className="App-header">
@@ -13,7 +19,7 @@ function App() {
       </header>
       <BodyWrapper>
         <div>
-          <Button>글쓰기</Button>
+          <Button onClick={handleShow}>글쓰기</Button>
         </div>
         <TableContainer>
           <Table striped bordered hover>
@@ -48,6 +54,30 @@ function App() {
         </TableContainer>
 
       </BodyWrapper>
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>글쓰기</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <Form noValidate validated={true}>
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Label>Name</Form.Label>
+              <Form.Control type="text" placeholder="Enter email" required />
+              <Form.Control.Feedback type="invalid">
+                Please provide a valid city.
+              </Form.Control.Feedback>
+            </Form.Group>
+          </Form>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+          <Button variant="primary" onClick={handleClose}>
+            Save Changes
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </div>
   );
 }
