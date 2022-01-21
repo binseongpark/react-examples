@@ -1,0 +1,109 @@
+{
+  "list": [
+    {
+      "id": 1,
+      "name": "API AutoFlow",
+      "image": "/api_autoflow.svg"
+    },
+    {
+      "id": 2,
+      "name": "Auth0",
+      "image": "/auth0.svg"
+    },
+    {
+      "id": 3,
+      "name": "AxonIQ",
+      "image": "/axoniq.svg"
+    },
+    {
+      "id": 4,
+      "name": "Axual",
+      "image": "/axual.svg"
+    },
+    {
+      "id": 5,
+      "name": "Conviva",
+      "image": "/conviva.svg"
+    },
+    {
+      "id": 6,
+      "name": "Dbvisit",
+      "image": "/dbvisit.svg"
+    },
+    {
+      "id": 7,
+      "name": "Gitlab",
+      "image": "/gitlab.svg"
+    },
+    {
+      "id": 8,
+      "name": "Gremlin",
+      "image": "/gremlin.svg"
+    },
+    {
+      "id": 9,
+      "name": "Imply",
+      "image": "/imply.svg"
+    },
+    {
+      "id": 10,
+      "name": "Instana",
+      "image": "/instana.svg"
+    },
+    {
+      "id": 11,
+      "name": "KrakenD",
+      "image": "/krakend.svg"
+    },
+    {
+      "id": 12,
+      "name": "Kubecost",
+      "image": "/kubecost.svg"
+    },
+    {
+      "id": 13,
+      "name": "Lumen",
+      "image": "/lumen.svg"
+    },
+    {
+      "id": 14,
+      "name": "OceanBlue Cloud",
+      "image": "/oceanblue_cloud.svg"
+    },
+    {
+      "id": 15,
+      "name": "Okta",
+      "image": "/okta.svg"
+    },
+    {
+      "id": 16,
+      "name": "Rancher",
+      "image": "/rancher.svg"
+    },
+    {
+      "id": 17,
+      "name": "Sonatype",
+      "image": "/sonatype.svg"
+    },
+    {
+      "id": 18,
+      "name": "Speedscale",
+      "image": "/speedscale.svg"
+    },
+    {
+      "id": 19,
+      "name": "SUSE",
+      "image": "/suse.svg"
+    },
+    {
+      "id": 20,
+      "name": "Tigera",
+      "image": "/tigera.svg"
+    },
+    {
+      "id": 21,
+      "name": "WSO2",
+      "image": "/wso2.svg"
+    }
+  ]
+}

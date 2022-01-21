@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 347 316" style="enable-background:new 0 0 347 316;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E24329;}
+	.st1{fill:#FCA326;}
+	.st2{fill:#FC6D26;}
+	.st3{display:none;}
+	.st4{display:inline;opacity:0.1;fill:#E828E3;enable-background:new    ;}
+	.st5{display:inline;}
+	.st6{font-family:'SourceHanSansKR-Regular-KSCpc-EUC-H';}
+	.st7{font-size:24px;}
+</style>
+<g id="logo_art">
+	<g>
+		<g>
+			<path id="path50_6_" class="st0" d="M173.4,285L173.4,285L224,129.3H122.9L173.4,285L173.4,285z"/>
+			<path id="path66_8_" class="st1" d="M52.1,129.3L52.1,129.3l-15.4,47.3c-1.4,4.3,0.1,9,3.8,11.7l133,96.6L52.1,129.3L52.1,129.3z
+				"/>
+			<path id="path74_6_" class="st0" d="M52.1,129.3h70.9L92.4,35.6c-1.6-4.8-8.4-4.8-10,0L52.1,129.3L52.1,129.3z"/>
+			<path id="path82_8_" class="st1" d="M294.9,129.3L294.9,129.3l15.4,47.3c1.4,4.3-0.1,9-3.8,11.7l-133,96.6L294.9,129.3
+				L294.9,129.3z"/>
+			<path id="path86_6_" class="st0" d="M294.9,129.3H224l30.4-93.7c1.6-4.8,8.4-4.8,10,0L294.9,129.3L294.9,129.3z"/>
+			<polygon class="st2" points="173.4,285 224,129.3 294.9,129.3 			"/>
+			<polygon class="st2" points="173.4,285 52.1,129.3 122.9,129.3 			"/>
+		</g>
+	</g>
+</g>
+<g id="spacing_guides" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" class="st3">
+	<path id="path40_125_" sketch:type="MSShapeGroup" class="st4" d="M-258.5-124V0h864v-124H-258.5L-258.5-124z"/>
+	<path id="path40_124_" sketch:type="MSShapeGroup" class="st4" d="M-258.5,310.5v62h864v-62H-258.5L-258.5,310.5z"/>
+	<path id="path40_123_" sketch:type="MSShapeGroup" class="st4" d="M142.5,310.6h62V0.3h-62V310.6L142.5,310.6z"/>
+	<g class="st5">
+		<text transform="matrix(1 0 0 1 137.7527 80.9998)" class="st6 st7">H: 2.5 x</text>
+	</g>
+	<g class="st5">
+		<text transform="matrix(1 0 0 1 149.2224 345.998)" class="st6 st7">1/2 x</text>
+	</g>
+	<path id="path40_122_" sketch:type="MSShapeGroup" class="st4" d="M-258.5,535.5v124h864v-124H-258.5L-258.5,535.5z"/>
+	<g class="st5">
+		<text transform="matrix(1 0 0 1 161.7878 602.4659)" class="st6 st7">1x</text>
+	</g>
+	<g class="st5">
+		<text transform="matrix(1 0 0 1 161.7878 -58.5016)" class="st6 st7">1x</text>
+	</g>
+	<path id="path40_121_" sketch:type="MSShapeGroup" class="st4" d="M-259,659h124v-782h-124V659L-259,659z"/>
+	<g class="st5">
+		<text transform="matrix(1 0 0 1 -207.7246 271.3322)" class="st6 st7">1x</text>
+	</g>
+	<path id="path40_120_" sketch:type="MSShapeGroup" class="st4" d="M482,659h124v-782H482V659L482,659z"/>
+	<g class="st5">
+		<text transform="matrix(1 0 0 1 531.3169 271.3322)" class="st6 st7">1x</text>
+	</g>
+</g>
+</svg>
